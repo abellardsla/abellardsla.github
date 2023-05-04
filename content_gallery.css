@@ -63,3 +63,21 @@ footer {
     background-color: aquamarine;
     padding: 5px;
 }
+
+.poem-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5 5px;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    
+}
+
+@media only screen and (max-width:1000px) {
+    width:50%;
+}
+
+@media only screen and (max-width:500px) {
+    width:30%;
+}
